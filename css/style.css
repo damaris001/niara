@@ -1,0 +1,246 @@
+.navbar .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right:1rem !important;
+}
+
+
+body{
+    margin:0;
+    padding:0;
+
+}
+#africa{
+    margin-left:-5px;
+}
+#afrca{
+    margin-left:-5px;
+    margin-bottom:-2px;
+    height: 100%;
+}
+#textArea{
+    background-color:rgb(201,229,201);
+    width:100%;
+    text-align: center;
+    display:inline-block;
+}
+#text{
+    width: 50%;
+    margin:auto;
+    text-align:center;
+    display:block;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+id{
+    color:orange;
+    font-weight:bold;
+}
+.banner img{
+    height:365px;
+}
+.banner div{
+    position:relative;
+}
+.card-text{
+    position:absolute;
+    left:10px;
+    bottom:0;
+    text-align: center;;
+    font-weight:bold;
+    color:white;
+}
+.afrca div{
+    position: relative;
+}
+.image-text{
+    position:absolute;
+    margin-top:5px;
+    font-weight:bold;
+    font-size: 40px;
+    color:black;
+    bottom:0;
+
+}
+h3{
+    font-weight: bolder;
+}
+.feature{
+    position:relative;
+    padding-top:70px;
+}
+.featureImage{
+    width:100%;
+    
+}
+
+.container1{
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container2{
+    width: 98%;
+    margin: auto;
+}
+
+.sectorImage{
+    height:350px;
+    width:100%;
+}
+
+.btn{
+ align-items: center;
+ justify-content: center;
+ 
+
+    
+}
+h2{
+    text-align: center;
+}
+
+
+.readmore{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+.white_bg 
+{
+    background-color: #fff;
+    padding: 2px; /*add this if you want a bit of space around the text*/
+}
+
+
+#first-section
+{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/business-directory-bg.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height: 100vh
+}
+#first-section .dark-overlay{
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    min-height:700px;
+    
+}
+#first-section .first-inner{
+    padding-top:150px;
+    text-align: center;
+    
+}
+.categoryImage{
+    height:350px;
+    width:100%;
+}
+
+
+.footer-row{
+    display: grid;
+}
+
+.small{
+    width: 50%;
+    margin: auto;
+
+}
+
+.category{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+ 
+}
+
+.category .center {
+  display: flex;
+  justify-content: center;
+}
+
+.form-inline {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+
+
+  }
+  
+  
+  .form-inline label {
+    margin: 5px 10px 5px 0;
+  }
+  
+  .form-inline select {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #111;
+
+  }
+  
+  .form-inline button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .form-inline button:hover {
+    background-color: royalblue;
+  }
+  
+  @media (max-width: 800px) {
+    .form-inline input {
+      margin: 10px 0;
+    }
+    
+    .form-inline {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+
+  .display-4{
+      color: #fff;
+      font-weight: 500;
+      padding-bottom: 20px;
+  }
+
+  .clr{
+      padding-top: 50px;
+  }
+
+  .card .team-img{
+      width: 60%;
+      margin: auto;
+      justify-content: center;
+      background-color:orange;
+  }
+
+  .card .card-reload{
+        width: 60%;
+      margin: auto;
+      justify-content: center;
+  }
+  .display-4{
+    color: #000;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
