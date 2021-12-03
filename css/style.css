@@ -1,168 +1,229 @@
-.navbar .nav-link{
-    font-size: 14px;
-    text-transform: uppercase;
-    padding-left: 1rem !important;
-    padding-right:1rem !important;
+          
+@media screen and (max-width:600px ){
+    p.image-text{
+      font-size: 30px;
+      top: -25px;
+    }
+    p.text{
+      width:82%;
+    }
+}
+@font-face {
+  font-family: Apercu;
+  src: url("../fonts/Apercu\ Pro\ Regular.otf");
+}
+@font-face {
+  font-family: Apercu Bold;
+  src: url("../fonts/Apercu\ Pro\ Bold.otf");
+}
+.navbar .nav-link {
+  font-size: 16px;
+  text-transform: capitalize;
+  
+}
+.navbar .nav{
+  margin-right:60px;
+}
+.navbar .nav-item{
+    margin-right: 10px;
 }
 
-
-body{
-    margin:0;
-    padding:0;
-
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Apercu";
+  font-size: 20px;
+  box-sizing: border-box;
+ 
 }
-#africa{
-    margin-left:-5px;
+hr {
+  border: 1px solid #111;
 }
-#afrca{
-    margin-left:-5px;
-    margin-bottom:-2px;
-    height: 100%;
+#africa {
+  margin-left: -5px;
 }
-#textArea{
-    background-color:rgb(201,229,201);
-    width:100%;
-    text-align: center;
-    display:inline-block;
+#afrca {
+  margin-left: -5px;
+  margin-bottom: -2px;
+  height: 100%;
+  position: relative;
 }
-#text{
-    width: 50%;
-    margin:auto;
-    text-align:center;
-    display:block;
-    font-weight: 700;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-id{
-    color:orange;
-    font-weight:bold;
-}
-.banner img{
-    height:365px;
-}
-.banner div{
-    position:relative;
-}
-.card-text{
-    position:absolute;
-    left:10px;
-    bottom:0;
-    text-align: center;;
-    font-weight:bold;
-    color:white;
-}
-.afrca div{
+.banner-img{
     position: relative;
 }
-.image-text{
-    position:absolute;
-    margin-top:5px;
-    font-weight:bold;
-    font-size: 40px;
-    color:black;
-    bottom:0;
-
-}
-h3{
-    font-weight: bolder;
-}
-.feature{
-    position:relative;
-    padding-top:70px;
-}
-.featureImage{
-    width:100%;
-    
-}
-
-.container1{
-    width: 90%;
-    margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.container2{
-    width: 98%;
-    margin: auto;
-}
-
-.sectorImage{
-    height:350px;
-    width:100%;
-}
-
-.btn{
- align-items: center;
- justify-content: center;
- 
-
-    
-}
-h2{
-    text-align: center;
-}
 
 
-.readmore{
-    padding-top: 30px;
-    padding-bottom: 30px;
+.textArea {
+  background-color: rgb(201, 229, 201);
+  text-align: center;
+  display: inline-block;
+}
+.text {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
-.img-fluid{
-    width: 100%;
+ .text .word{
+  color: #ed6925;
+  font-weight: bold;
 }
 
-.white_bg 
-{
-    background-color: #fff;
-    padding: 2px; /*add this if you want a bit of space around the text*/
+.banner div {
+  position: relative;
+}
+/* .banner .img-3 {
+    position: relative;
+  } */
+.card-text {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  color: white;
+}
+.card-text img{
+  width:14px;
+}
+.afrca div {
+  position: relative;
+}
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  bottom: 0;
+}
+.image-text strong{
+     font-family:"Apercu Bold";
+     font-size: 74px;
+}
+.text strong{
+  font-weight: 900;
 }
 
-
-#first-section
-{
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/business-directory-bg.png);
-    background-repeat:no-repeat;
-    background-size: cover;
-    min-height: 100vh
+h3 {
+  font-weight: bolder;
 }
-#first-section .dark-overlay{
-    position:relative;
-    top:0;
-    left:0;
-    width:100%;
-    min-height:700px;
-    
+.feature {
+  position: relative;
+  padding-top: 70px;
 }
-#first-section .first-inner{
-    padding-top:150px;
-    text-align: center;
-    
+.featureImage {
+  width: 100%;
 }
-.categoryImage{
-    height:350px;
-    width:100%;
+.container1 {
+  width: 90%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-
-.footer-row{
-    display: grid;
+.container2 {
+  width: 100%;
+  margin: auto;
+}
+.dirText{
+  text-align: center;
 }
 
-.small{
-    width: 50%;
-    margin: auto;
-
+.lheight {
+  line-height: 22px;
+}
+.lheightm {
+  line-height: 1.6;
+}
+.a-plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
-.category{
-    background-color: #fff;
-    border-radius: 10px;
-    width: 70%;
-    margin: auto;
- 
+.sectorImage {
+  width: 100%;
+}
+
+.btn {
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  text-transform: uppercase;
+  border: 2px solid black;
+}
+h2 {
+  text-align: center;
+}
+
+.readmore {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-top: 10px;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.white_bg {
+  background-color: #fff;
+  padding: 2px; /*add this if you want a bit of space around the text*/
+}
+
+#first-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/business-directory-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+#first-section .dark-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+}
+#first-section .first-inner {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.categoryImage {
+  width: 100%;
+}
+.category select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("../img/vector-smart-object.png");
+  background-repeat: no-repeat;
+  background-position-x: 98%;
+  background-position-y: 19px;
+  background-size: 15px;
+  padding-right: 22px !important;
+}
+.footer-row {
+  display: grid;
+}
+
+.small {
+  width: 50%;
+  margin: auto;
+}
+
+.category {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
 }
 
 .category .center {
@@ -170,77 +231,96 @@ h2{
   justify-content: center;
 }
 
-.form-inline {  
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    padding: 10px;
-    margin: auto;
-
-
-  }
-  
-  
-  .form-inline label {
-    margin: 5px 10px 5px 0;
-  }
-  
-  .form-inline select {
-    vertical-align: middle;
-    margin: 5px 10px 5px 0;
-    padding: 8px;
-    background-color: #fff;
-    border: 1px solid #111;
-
-  }
-  
-  .form-inline button {
-    padding: 10px 20px;
-    background-color: dodgerblue;
-    border: 1px solid #ddd;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .form-inline button:hover {
-    background-color: royalblue;
-  }
-  
-  @media (max-width: 800px) {
-    .form-inline input {
-      margin: 10px 0;
-    }
-    
-    .form-inline {
-      flex-direction: column;
-      align-items: stretch;
-    }
-  }
-
-  .display-4{
-      color: #fff;
-      font-weight: 500;
-      padding-bottom: 20px;
-  }
-
-  .clr{
-      padding-top: 50px;
-  }
-
-  .card .team-img{
-      width: 60%;
-      margin: auto;
-      justify-content: center;
-      background-color:orange;
-  }
-
-  .card .card-reload{
-        width: 60%;
-      margin: auto;
-      justify-content: center;
-  }
-  .display-4{
-    color: #000;
-    font-weight: 500;
-    padding-bottom: 20px;
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
 }
+.form-group input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius:0;
+}
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline select {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #111;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.display-4 {
+  color: #fff;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.clr {
+  padding-top: 50px;
+}
+
+.card .team-img {
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+  background-color: orange;
+}
+
+.card .card-reload {
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+}
+.display-4 {
+  color: #000;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.eventText {
+  left: 10px;
+  bottom: 0;
+  text-align:left;
+  font-weight: bold;
+  color: black;
+}
+.white-logo {
+  height: 50px;
+}
+.sm-icons {
+  height: 37px;
+  width: 37px;
+  padding: 5px;
+  border: 2px solid #ffff;
+  border-radius: 50%;
+}
+

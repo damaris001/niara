@@ -6,19 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title> Niara</title>
-    <link rel="icon" type="image/x-icon" href="/img/apple-icon.png">
+    <link rel="icon" type="image/x-icon" href="/img/niara-logo-white.png" width="100">
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class=" navbar navbar-expand-sm bg-light navbar-light py-3 fixed-top">
-        <div class="container-fluid">
+    <nav class=" navbar navbar-expand-lg bg-light navbar-light py-3 fixed-top">
+        <div class="container">
             <a href="#" class="navbar-brand">
-                <img src="img/niara-logo.png" alt="" width="57" height="37">
+                <img src="img/niara-logo.png" alt="" width="80">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span>
@@ -29,7 +28,7 @@
                         <a href="about.html" class="nav-link ">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="events&projects.html" class="nav-link">Events and Projects</a>
+                        <a href="events&projects.html" class="nav-link">Events & Projects</a>
                     </li>
 
                     <li class="nav-item active">
@@ -47,110 +46,107 @@
     </nav>
 
 
-  <!-- First Section -->
-  <section id="first-section">
-  
+    <!-- First Section -->
+    <section id="first-section">
         <div class="first-inner container">
             <div class="row">
-                <div class="col-lg-8 d-lg-block">
-                     <h1 class="display-4">Discover great brands in the
-                          Niara Business Ecosystem  </h1>
-                    </div>
+                <div class="col-12 d-lg-block">
+                    <h1 class="display-4 dirText text-white ">Discover great brands in the
+                        Niara Business Ecosystem </h1>
+                </div>
             </div>
 
-
-            <div class="category">
-                         
+            <div class="category mt-2">
                 <div class="center">
+                    <form class="form-inline" action="/action_page.php">
+                        <label for="email">Discover by:</label>
+                        <select name="" id="">
+                            <option value="">CATEGORIES </option>
+                            <option value="">fashion </option>
+                            <option value="">food and drink</option>
+                            <option value="">real estate </option>
+                            <option value="">technology </option>
+                            <option value=""> art and craft </option>
+                            <option value=""> agriculture </option>
+                        </select>
 
-                
-                     <form class="form-inline" action="/action_page.php">
-                    <label for="email">Discover by:</label>
-                   <select name="" id="">
-                    <option value="">CATEGORIES </option>
-                       <option value="">fashion </option>
-                       <option value="">food and drink</option>
-                       <option value="">real estate </option>
-                       <option value="">technology </option>
-                       <option value=""> art and craft </option>
-                       <option value=""> agriculture </option>
-                   </select>
-
-                   <select name="" id="">
-                    <option value="">ALPHABETICAL ORDER </option>
-                    <option value="">A - D</option>
-                    <option value="">E - H </option>
-                    <option value="">I - L</option>
-                    <option value="">M - O </option>
-                    <option value=""> P- S </option>
-                    <option value=""> T - W </option>
-                    <option value=""> X - Z </option>
-                </select>
-                  </form>   
-                  
+                        <select name="" id="">
+                            <option value="">ALPHABETICAL ORDER </option>
+                            <option value="">A - D</option>
+                            <option value="">E - H </option>
+                            <option value="">I - L</option>
+                            <option value="">M - O </option>
+                            <option value=""> P- S </option>
+                            <option value=""> T - W </option>
+                            <option value=""> X - Z </option>
+                        </select>
+                    </form>
                 </div>
-
-
-            </div>
-         
-        </div>
-
-</section>
-
-  <!-- Popular Categories -->
-     
-  <div class="container">
-    <div class="categories">
-        <h3 class="text-center mt-5 mb-3">Popular Categories</h3>
-        <div class="row offset-md-0">
-            <div class="col-md-4" style="font-weight: bold;">
-                <img src="img/food-and-drink.png" class="categoryImage" alt="">
-                <p class="text-center ">Food & Drink</p>
-            </div>
-            <div class="col-md-4" style="font-weight: bold;">
-                <img src="img/fashion.png" class="categoryImage" alt="">
-                <p class="text-center">Fashion</p>
-            </div>
-            <div class="col-md-4" style="font-weight: bold;">
-                <img src="img/real-estate.png" class="categoryImage" alt="">
-                <p class="text-center">Real estate</p>
             </div>
         </div>
-    </div>
-</div>
+    </section>
 
-<!--Newsletter-->
-<section id="newsletter" class="text-center p-5 bg-light text-dark">
+    <!-- Popular Categories -->
+
     <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1>Sign Up For NewsLetter</h1>
-                <p>Fill in to get newsletter</p>
-                     <form class="form-inline justify-content-end">
-                         <input type="text" class="form-control form-control-lg mb-2 mr-2 small " placeholder="Enter Email">
-                         <button class="btn btn-white btn-outline-dark mb-2">Sign Up</button>
-                     </form>
-                     <p class="text-muted"> By clicking sign up you'll receive occasional emails from Niara Africa. You will also have the choice to adjust your interest settings or unsubscribe.</p>
+        <div class="categories">
+            <h3 class="text-center mt-5 mb-3">Popular Categories</h3>
+            <div class="row offset-md-0">
+                <div class="col-md-4" style="font-weight:bold; font-size: 20px;">
+                    <img src="img/food-and-drink.png" class="categoryImage" alt="">
+                    <p class="text-center mt-3">Food & Drink</p>
+                </div>
+                <div class="col-md-4" style="font-weight: bold; font-size: 20px;">
+                    <img src="img/fashion.png" class="categoryImage" alt="">
+                    <p class="text-center mt-3">Fashion</p>
+                </div>
+                <div class="col-md-4" style="font-weight: bold; font-size: 20px;">
+                    <img src="img/real-estate.png" class="categoryImage" alt="">
+                    <p class="text-center mt-3">Real estate</p>
+                </div>
             </div>
         </div>
     </div>
-</section>
 
-        <!-- footer -->
-        <footer id="main-footer" class="text-center p-4 bg-dark text-white">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <p>Copyright &copy; <span id="year"></span> Niara Africa All Rights Reserved </p><p>About</p>
-                        <p>Privacy</p>
-                        <p>Contact</p>
-                        
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                    </div>
-                </div>
+   <!--Newsletter-->
+   <section id="newsletter" class="text-center p-5 bg-light text-dark">
+    <div class="container">
+        <div class="row form-group align-items-end ">
+
+            <label class="col-md-4 fw-bolder align-self-end" style="line-height: 1;">Sign up for newsletter</label>
+            <div class="col-md-5 ">
+                <input type="text" class="form-control form-control-lg" placeholder="">
             </div>
-        </footer>
+            <div class="col-md-2">
+                <button class="btn btn-white btn-outline-dark px-4 text-capitalize" style="font-size:16px; font-weight:800;">Sign Up</button>
+            </div>
+            
+        </div>
+        <p class="text-muted mt-4" style="font-size: 15px;"> By clicking sign up you'll receive occasional emails from Niara Africa. You
+            will also have the choice to adjust your interest settings or unsubscribe.</p>
+    </div>
+   </section>
+
+<!-- footer -->
+<footer id="main-footer" class="text-center p-4 bg-dark text-white">
+    <div class="container">
+        <div class="footer-row d-flex justify-content-between">
+            <img class="white-logo" src="img/niara-logo-white.png">
+            <div class="d-flex">
+                <p class="p-2">About</p>
+                <p class="p-2">Privacy</p>
+                <p class="p-2">Contact</p>
+                <p class="p-2 mt-2" style="font-size:12px;"> &copy; <span id="year"></span> <small>Niara Africa. All Rights Reserved</small> </p>
+            </div>
+
+           <!-- sm-icons: social media icons -->
+            <div class="d-flex">
+                <div class="p-2"><img src="/img/twitter.png" class="sm-icons img-fluid "></div>
+                <div class="p-2"><img src="/img/facebook.png" class="sm-icons img-fluid "></div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
     <script src="https://use.fontawesome.com/3d96c7bdf7.js"></script>
