@@ -238,12 +238,14 @@ h2 {
   padding: 10px;
   margin: auto;
 }
-.form-group input {
+.form-group input,
+.form-group textarea{
   background: transparent;
   border: none;
   border-bottom: 2px solid black;
   border-radius:0;
 }
+
 .form-inline label {
   margin: 5px 10px 5px 0;
 }
@@ -267,7 +269,13 @@ h2 {
 .form-inline button:hover {
   background-color: royalblue;
 }
-
+.contact-form form{
+  margin-top: 40px;
+  margin-bottom:40px ;
+}
+.contact-form .form-group {
+  margin-top: 20px;
+}
 @media (max-width: 800px) {
   .form-inline input {
     margin: 10px 0;
