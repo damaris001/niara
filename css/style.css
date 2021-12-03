@@ -292,7 +292,14 @@ h2 {
   font-weight: 500;
   padding-bottom: 20px;
 }
-
+span.ndi {
+  color: #ed6925;
+  font-style: italic;
+  font-size: 15px;
+  text-decoration: underline;
+  text-decoration-color: greenyellow;
+  font-weight: 800;
+}
 .clr {
   padding-top: 50px;
 }
