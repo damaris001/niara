@@ -1,0 +1,10 @@
+ <section id="newsletter" class="text-center p-5 bg-light text-dark">
+        <div class="container">
+         <div class="row form-group ">
+          <label class="col-md-4 fw-bolder align-self-end">Sign up for newsletter</label>
+            <div class="col-md-5 ">
+             <input type="text" class="form-control form-control-lg mb-2 " placeholder="">
+            </div>
+            </div>
+
+            
